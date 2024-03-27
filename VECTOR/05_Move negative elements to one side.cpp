@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+
+// first metnod to move negative element to one side
+
 void move(vector<int> &arr, int size)
 {
     int i = 0;
@@ -22,6 +25,28 @@ void move(vector<int> &arr, int size)
         }
     }
 }
+
+
+// second method to move negative element to one side
+
+
+// void move(vector<int> &arr, int size) {
+//   int i = 0;
+//   int j = size - 1;
+  
+//   for (; i <= j;) {
+//     if (arr[i] < 0) {
+//       i++;
+
+//     }
+
+//     else {
+//       swap(arr[i], arr[j]);
+//       j--;
+//     }
+//   }
+// }
+
 
 int main()
 {
