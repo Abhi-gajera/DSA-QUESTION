@@ -11,8 +11,6 @@ int repeting(vector<int> arr, int n)
         {
             if (arr[i] == arr[j])
             {
-                //  jo first number j print kravo hoy to return karvu  jo return ni jgyaye
-                // cout<<arr[i] kari to bdha repeting element print thay
                 return arr[i];
             }
         }
